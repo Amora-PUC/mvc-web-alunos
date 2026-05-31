@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Alunos</title>
+</head>
+<body>
+    <h1>Cadastro de Aluno</h1>
+    <form action="/alunos" method="post">
+        <label>Nome: <input type="text" name="nome" required></label><br><br>
+        <label>Matrícula: <input type="text" name="matricula" required></label><br><br>
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>
