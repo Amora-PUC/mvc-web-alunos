@@ -17,22 +17,22 @@ MVC é um padrão de arquitetura de software que separa a aplicação em 3 camad
 | **Controller** | Recebe as requisições, chama o Model e decide qual View exibir. |
 
 ---
-
 ## 📁 Estrutura do Projeto
-mvc-web-alunos/
-└── src/
-└── main/
-├── java/
-│   └── com/exemplo/mvc/
-│       ├── model/
-│       │   └── Aluno.java           → Model (regra de negócio)
-│       ├── controller/
-│       │   └── AlunoController.java → Controller (coordena o fluxo)
-│       └── MvcApplication.java      → Classe principal
-└── resources/
-└── templates/
-├── alunos-form.html         → View (formulário de cadastro)
-└── alunos-lista.html        → View (lista de alunos)
+
+    mvc-web-alunos/
+    └── src/
+        └── main/
+            ├── java/
+            │   └── com/exemplo/mvc/
+            │       ├── model/
+            │       │   └── Aluno.java           → Model (regra de negócio)
+            │       ├── controller/
+            │       │   └── AlunoController.java → Controller (coordena o fluxo)
+            │       └── MvcApplication.java      → Classe principal
+            └── resources/
+                └── templates/
+                    ├── alunos-form.html         → View (formulário de cadastro)
+                    └── alunos-lista.html        → View (lista de alunos)
 
 ## 🚀 Como executar o projeto
 
